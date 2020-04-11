@@ -1,0 +1,8 @@
+name: dreamer
+recipe: drupal8
+config:
+  webroot: web
+  drush: ^9
+  xdebug: true
+  conf:
+    php: .vscode/php.ini
