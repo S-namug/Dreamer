@@ -1,0 +1,14 @@
+uuid: 0ca3af00-c913-414f-956c-5d5b05c25976
+name: Dreamers
+mail: namugerwasophia@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

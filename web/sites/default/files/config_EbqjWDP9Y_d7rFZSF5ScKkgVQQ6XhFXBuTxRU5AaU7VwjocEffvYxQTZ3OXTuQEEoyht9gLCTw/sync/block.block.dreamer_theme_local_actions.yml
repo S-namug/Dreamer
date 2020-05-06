@@ -1,0 +1,20 @@
+uuid: f69a2207-fc45-4b66-87c7-9aeb75532f6c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - dreamer_theme
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: dreamer_theme_local_actions
+theme: dreamer_theme
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

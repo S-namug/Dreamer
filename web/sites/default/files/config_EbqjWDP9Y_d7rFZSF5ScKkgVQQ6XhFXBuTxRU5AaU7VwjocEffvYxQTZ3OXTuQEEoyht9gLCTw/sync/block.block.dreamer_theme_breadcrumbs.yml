@@ -1,0 +1,22 @@
+uuid: 0b67d293-a7c8-43ee-bdf7-ee18e78f60d0
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dreamer_theme
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: dreamer_theme_breadcrumbs
+theme: dreamer_theme
+region: header
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

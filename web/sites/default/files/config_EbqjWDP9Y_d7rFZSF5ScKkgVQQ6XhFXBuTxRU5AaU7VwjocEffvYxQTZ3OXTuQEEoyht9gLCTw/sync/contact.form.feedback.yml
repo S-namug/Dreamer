@@ -1,0 +1,14 @@
+uuid: e69fe8b7-64fc-4839-b298-50d5846ca88d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - namugerwasophia@gmail.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

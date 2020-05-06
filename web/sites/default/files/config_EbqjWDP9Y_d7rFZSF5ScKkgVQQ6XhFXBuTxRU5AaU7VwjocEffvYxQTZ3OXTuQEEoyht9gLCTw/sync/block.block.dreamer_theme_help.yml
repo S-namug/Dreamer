@@ -1,0 +1,22 @@
+uuid: 182dda65-ee34-46c9-a37e-1368994f15ef
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - dreamer_theme
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: dreamer_theme_help
+theme: dreamer_theme
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
