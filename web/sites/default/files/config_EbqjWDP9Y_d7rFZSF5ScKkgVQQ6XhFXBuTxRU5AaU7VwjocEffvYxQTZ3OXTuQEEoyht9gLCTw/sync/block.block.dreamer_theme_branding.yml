@@ -1,6 +1,6 @@
-uuid: 8e161a18-5687-4091-941b-14cb7fc265b5
+uuid: 885ef2e8-1996-4074-8c35-31892a3a7700
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -11,7 +11,7 @@ _core:
 id: dreamer_theme_branding
 theme: dreamer_theme
 region: header
-weight: 0
+weight: -6
 provider: null
 plugin: system_branding_block
 settings:

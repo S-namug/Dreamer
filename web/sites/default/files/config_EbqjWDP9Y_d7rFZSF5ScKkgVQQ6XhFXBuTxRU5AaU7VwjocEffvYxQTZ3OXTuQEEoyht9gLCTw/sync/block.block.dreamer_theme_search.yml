@@ -1,6 +1,6 @@
-uuid: 5738e89a-9d83-4294-b0ad-4111a98829aa
+uuid: a3d47fdd-c0fd-452a-84eb-323a1bd89048
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - search
@@ -11,7 +11,7 @@ _core:
 id: dreamer_theme_search
 theme: dreamer_theme
 region: header
-weight: -1
+weight: -4
 provider: null
 plugin: search_form_block
 settings:

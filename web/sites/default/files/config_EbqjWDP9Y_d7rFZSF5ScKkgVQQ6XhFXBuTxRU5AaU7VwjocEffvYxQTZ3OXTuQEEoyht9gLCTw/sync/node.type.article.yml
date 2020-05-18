@@ -1,10 +1,17 @@
-uuid: 83ba0866-5030-4ec5-9f6e-5fc8da0b3686
+uuid: 85d86f76-af98-46cd-861f-389ab25f37c0
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
 _core:
   default_config_hash: AeW1SEDgb1OTQACAWGhzvMknMYAJlcZu0jljfeU3oso
-name: Article
+name: 'Blog Post Classic'
 type: article
 description: 'Use <em>articles</em> for time-sensitive content like news, press releases or blog posts.'
 help: ''

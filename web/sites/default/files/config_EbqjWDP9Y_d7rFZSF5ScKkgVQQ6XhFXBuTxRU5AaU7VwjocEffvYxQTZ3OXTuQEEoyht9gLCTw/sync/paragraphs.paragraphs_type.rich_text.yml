@@ -1,0 +1,10 @@
+uuid: d64c228a-3ace-46f7-a8a4-f8a21b908951
+langcode: en
+status: true
+dependencies: {  }
+id: rich_text
+label: 'Rich Text'
+icon_uuid: null
+icon_default: null
+description: 'This is a rich text component '
+behavior_plugins: {  }

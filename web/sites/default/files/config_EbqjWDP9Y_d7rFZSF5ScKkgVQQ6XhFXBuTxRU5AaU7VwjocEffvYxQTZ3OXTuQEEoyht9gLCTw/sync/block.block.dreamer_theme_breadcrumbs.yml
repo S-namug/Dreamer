@@ -1,6 +1,6 @@
-uuid: 0b67d293-a7c8-43ee-bdf7-ee18e78f60d0
+uuid: 91e6bbd8-806a-43fc-9834-6046a15a560f
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -11,7 +11,7 @@ _core:
 id: dreamer_theme_breadcrumbs
 theme: dreamer_theme
 region: header
-weight: 0
+weight: -3
 provider: null
 plugin: system_breadcrumb_block
 settings:

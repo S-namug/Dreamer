@@ -1,0 +1,10 @@
+uuid: 8b7bb8f4-6649-4e03-aff9-ecf746bc6979
+langcode: en
+status: true
+dependencies: {  }
+id: code
+label: Code
+icon_uuid: null
+icon_default: null
+description: 'Components of code snippets '
+behavior_plugins: {  }

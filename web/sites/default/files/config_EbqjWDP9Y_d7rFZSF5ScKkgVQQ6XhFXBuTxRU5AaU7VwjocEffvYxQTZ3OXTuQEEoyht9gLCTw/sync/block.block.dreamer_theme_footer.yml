@@ -1,4 +1,4 @@
-uuid: b413fe4c-a862-496c-bf21-2834bf216b0e
+uuid: e8e78717-da75-400b-94aa-1dda2e3c71ef
 langcode: en
 status: true
 dependencies:
@@ -12,8 +12,8 @@ _core:
   default_config_hash: 8zRjTNbfNAJ94lQpZDu6MkyD87GYJ2zpH9VQPVmRbcM
 id: dreamer_theme_footer
 theme: dreamer_theme
-region: header
-weight: 0
+region: footer
+weight: -5
 provider: null
 plugin: 'system_menu_block:footer'
 settings:

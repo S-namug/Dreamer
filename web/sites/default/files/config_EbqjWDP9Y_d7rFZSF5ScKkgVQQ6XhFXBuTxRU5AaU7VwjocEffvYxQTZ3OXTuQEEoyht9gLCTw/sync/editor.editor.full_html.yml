@@ -1,4 +1,4 @@
-uuid: 2bef5340-b194-4db2-b860-45888e8257ec
+uuid: d8ac74aa-cf7f-4c4b-aea6-6644eea78439
 langcode: en
 status: true
 dependencies:
@@ -19,6 +19,7 @@ settings:
           items:
             - Bold
             - Italic
+            - Underline
             - Strike
             - Superscript
             - Subscript
@@ -44,20 +45,29 @@ settings:
         -
           name: 'Block Formatting'
           items:
+            - Indent
+            - Outdent
             - Format
+            - JustifyLeft
+            - JustifyCenter
+            - JustifyRight
+            - JustifyBlock
         -
           name: Tools
           items:
             - ShowBlocks
+            - SpecialChar
             - Source
   plugins:
     stylescombo:
       styles: ''
+    language:
+      language_list: un
 image_upload:
   status: true
   scheme: public
   directory: inline-images
   max_size: ''
   max_dimensions:
-    width: 0
-    height: 0
+    width: null
+    height: null

@@ -1,0 +1,35 @@
+uuid: 178d428d-f712-49ef-8111-c2a50d610413
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_components
+    - node.type.blog_post_components
+  module:
+    - entity_reference_revisions
+id: node.blog_post_components.field_components
+field_name: field_components
+entity_type: node
+bundle: blog_post_components
+label: Components
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles: null
+    target_bundles_drag_drop:
+      blog_post_image:
+        weight: 4
+        enabled: false
+      code:
+        weight: 5
+        enabled: false
+      rich_text:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions

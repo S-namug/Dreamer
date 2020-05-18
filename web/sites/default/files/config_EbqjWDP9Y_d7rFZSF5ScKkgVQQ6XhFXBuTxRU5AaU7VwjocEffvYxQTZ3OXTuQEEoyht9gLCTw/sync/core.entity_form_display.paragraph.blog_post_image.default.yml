@@ -1,0 +1,42 @@
+uuid: 1a91d1b8-5a47-4cc0-84a5-f11b33de7ad1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.blog_post_image.field_caption
+    - field.field.paragraph.blog_post_image.field_image
+    - field.field.paragraph.blog_post_image.field_type
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.blog_post_image
+  module:
+    - image
+id: paragraph.blog_post_image.default
+targetEntityType: paragraph
+bundle: blog_post_image
+mode: default
+content:
+  field_caption:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_image:
+    weight: 1
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_type:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+hidden:
+  created: true
+  status: true

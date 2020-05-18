@@ -1,0 +1,65 @@
+uuid: 230123c5-c7e1-406d-a9a2-e866ef46f70b
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.code
+  module:
+    - ckeditor
+format: code
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Tools
+          items:
+            - CodeSnippet
+  plugins:
+    stylescombo:
+      styles: ''
+    language:
+      language_list: un
+    codesnippet:
+      highlight_style: github
+      highlight_languages:
+        apache: apache
+        bash: bash
+        css: css
+        coffeescript: coffeescript
+        dart: dart
+        dockerfile: dockerfile
+        dust: dust
+        gherkin: gherkin
+        go: go
+        haml: haml
+        handlebars: handlebars
+        ini: ini
+        json: json
+        java: java
+        javascript: javascript
+        less: less
+        makefile: makefile
+        markdown: markdown
+        nginx: nginx
+        php: php
+        perl: perl
+        powershell: powershell
+        puppet: puppet
+        python: python
+        ruby: ruby
+        scss: scss
+        sql: sql
+        twig: twig
+        typescript: typescript
+        xml: xml
+        yaml: yaml
+image_upload:
+  status: false
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

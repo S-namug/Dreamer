@@ -1,0 +1,29 @@
+uuid: 3364bb2f-6819-4112-bb7c-c6e851d7b4bd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_code
+    - paragraphs.paragraphs_type.code
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    code: code
+    basic_html: '0'
+    restricted_html: '0'
+    full_html: '0'
+    plain_text: '0'
+id: paragraph.code.field_code
+field_name: field_code
+entity_type: paragraph
+bundle: code
+label: Code
+description: 'This field has snippets of code'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

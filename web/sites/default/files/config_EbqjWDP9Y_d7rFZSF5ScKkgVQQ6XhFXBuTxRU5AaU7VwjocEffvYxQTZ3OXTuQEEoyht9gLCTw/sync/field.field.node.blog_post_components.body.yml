@@ -1,0 +1,30 @@
+uuid: c0329932-ca58-4360-baf7-f07565ff70a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.blog_post_components
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    basic_html: basic_html
+    restricted_html: '0'
+    full_html: '0'
+    plain_text: '0'
+id: node.blog_post_components.body
+field_name: body
+entity_type: node
+bundle: blog_post_components
+label: Summary
+description: 'This text will be used as a summary and will be used as  a description in  the meta tag'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

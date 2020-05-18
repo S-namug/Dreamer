@@ -1,4 +1,4 @@
-uuid: 76b59cbe-fec9-4cab-8868-2b3da08b79d9
+uuid: 91f113c6-345b-462a-80f5-d8719a5c65a1
 langcode: en
 status: true
 dependencies:
@@ -19,6 +19,8 @@ settings:
           items:
             - Bold
             - Italic
+            - Underline
+            - Strike
         -
           name: Linking
           items:
@@ -33,23 +35,16 @@ settings:
           name: Media
           items:
             - Blockquote
-            - DrupalImage
-        -
-          name: 'Block Formatting'
-          items:
-            - Format
-        -
-          name: Tools
-          items:
-            - Source
   plugins:
     stylescombo:
       styles: ''
+    language:
+      language_list: un
 image_upload:
   status: true
   scheme: public
   directory: inline-images
   max_size: ''
   max_dimensions:
-    width: 0
-    height: 0
+    width: null
+    height: null

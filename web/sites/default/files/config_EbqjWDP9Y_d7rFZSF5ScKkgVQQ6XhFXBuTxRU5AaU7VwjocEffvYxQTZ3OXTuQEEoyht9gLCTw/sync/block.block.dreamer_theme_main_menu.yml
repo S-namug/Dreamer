@@ -1,4 +1,4 @@
-uuid: cac7992c-6abe-4099-bf65-5a39152f4bb7
+uuid: 0684e779-59c4-47a6-baa6-d3e6955e8e34
 langcode: en
 status: true
 dependencies:
@@ -13,7 +13,7 @@ _core:
 id: dreamer_theme_main_menu
 theme: dreamer_theme
 region: header
-weight: 0
+weight: -7
 provider: null
 plugin: 'system_menu_block:main'
 settings:

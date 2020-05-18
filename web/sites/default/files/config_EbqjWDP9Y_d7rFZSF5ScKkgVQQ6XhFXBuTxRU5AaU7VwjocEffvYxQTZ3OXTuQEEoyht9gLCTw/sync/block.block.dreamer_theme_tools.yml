@@ -1,6 +1,6 @@
-uuid: 5f83a5f6-639f-415e-bdc8-299c8c7c6c92
+uuid: 6cee551c-9d2f-44e3-989f-501b256a0644
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.tools
@@ -13,7 +13,7 @@ _core:
 id: dreamer_theme_tools
 theme: dreamer_theme
 region: header
-weight: 0
+weight: -2
 provider: null
 plugin: 'system_menu_block:tools'
 settings:

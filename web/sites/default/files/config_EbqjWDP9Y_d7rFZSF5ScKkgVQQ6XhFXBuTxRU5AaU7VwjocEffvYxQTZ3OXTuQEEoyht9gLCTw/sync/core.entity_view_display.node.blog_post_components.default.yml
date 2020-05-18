@@ -1,0 +1,48 @@
+uuid: 3abfae82-d53e-4b48-9056-c9b02133fb7c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.blog_post_components.body
+    - field.field.node.blog_post_components.field_components
+    - field.field.node.blog_post_components.field_tags
+    - node.type.blog_post_components
+  module:
+    - entity_reference_revisions
+    - text
+    - user
+id: node.blog_post_components.default
+targetEntityType: node
+bundle: blog_post_components
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_components:
+    type: entity_reference_revisions_entity_view
+    weight: 102
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_tags:
+    weight: 103
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

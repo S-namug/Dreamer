@@ -1,0 +1,21 @@
+uuid: 015cd47a-c6ef-4879-8f05-6595bb4f5198
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_type
+    - paragraphs.paragraphs_type.blog_post_image
+  module:
+    - options
+id: paragraph.blog_post_image.field_type
+field_name: field_type
+entity_type: paragraph
+bundle: blog_post_image
+label: Type
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

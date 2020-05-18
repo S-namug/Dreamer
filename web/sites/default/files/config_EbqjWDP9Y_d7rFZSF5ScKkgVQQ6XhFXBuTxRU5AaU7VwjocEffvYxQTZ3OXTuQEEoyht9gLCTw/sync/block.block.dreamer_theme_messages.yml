@@ -1,4 +1,4 @@
-uuid: eb378b8c-4c41-45b1-aa6a-15188ec7ea83
+uuid: f9b724c4-4acf-4dfd-879b-505769523589
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ _core:
 id: dreamer_theme_messages
 theme: dreamer_theme
 region: header
-weight: 0
+weight: -5
 provider: null
 plugin: system_messages_block
 settings:

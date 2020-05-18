@@ -1,0 +1,17 @@
+uuid: 8ffa401b-075d-46d5-a9f8-943c2951f9c0
+langcode: en
+status: true
+dependencies: {  }
+name: Code
+format: code
+weight: 0
+filters:
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: true
+    weight: -10
+    settings:
+      allowed_html: '<code class> <pre><span class>'
+      filter_html_help: true
+      filter_html_nofollow: false
