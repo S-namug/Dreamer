@@ -1,0 +1,32 @@
+{{ devel_breakpoint() }}
+{% set field_type = paragraph.field_type.0.value %}
+
+{% set card_type_class = 'card--content--type--photography' %} 
+{% if field_type  %}
+  {% set card_type_class = 'card--content--type--' ~ field_type %}
+{% endif %}
+
+<div class="container card--content {{ card_type_class }}">
+  <div class="row">
+    {% if field_type == 'normal_right' %}
+      <div class="col-sm card--content--caption">
+        {{ content.field_caption }}
+      </div>
+      <div class="col-sm card--content--image">
+        {{ content.field_image }}
+      </div>
+    {% elseif field_type == 'normal_left' %}
+      <div class="col-sm card--content--image">
+        {{ content.field_image }}
+      </div>  
+      <div class="col-sm card--content--caption">
+        {{ content.field_caption }}
+      </div>
+    {% else %}   
+      <div class="col-sm card--content--photography">
+        {{ content.field_image }}
+        {{ content.field_caption }}  
+      </div>  
+    {% endif %}
+  </div>
+</div>

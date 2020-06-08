@@ -1,0 +1,15 @@
+.card--content {
+  background-color: $purple;
+
+  &--type--photography {
+      img {
+          width: 1000px;
+          height: auto;
+      }
+  }
+
+  // &--caption{
+      
+  // }
+}
+ 
