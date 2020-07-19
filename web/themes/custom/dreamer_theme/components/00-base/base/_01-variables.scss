@@ -10,6 +10,20 @@
 $font-body: georgia, times, 'Times New Roman', serif;
 $font-heading: 'HelveticaNeue', 'Helvetica', 'Arial', sans-serif;
 
+//Font Size
+$font-size: 1rem;
+
+//Font Size Times
+$font-double: $font-size * 2;
+$font-triple: $font-size * 3;
+$font-quadruple: $font-size * 4;
+
+//Font Size Divided
+$font-one-half: $font-size/2;
+$font-one-third: $font-size/3;
+$font-one-fourth: $font-size/4;
+$font-one-fifth: $font-size/5;
+
 // Spacing
 $space: 1rem;
 

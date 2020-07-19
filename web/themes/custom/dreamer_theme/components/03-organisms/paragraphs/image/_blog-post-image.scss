@@ -1,15 +1,36 @@
 .card--content {
-  background-color: $purple;
+  margin: $space-double $space;
 
-  &--type--photography {
-      img {
-          width: 1000px;
-          height: auto;
-      }
+  &--photography {
+    border: 3px solid $black;
+    padding: 5px;
+
+    img {
+      width: 100%;
+      max-width: $max-width;
+      height: auto;
+    }
+
+    &-caption {
+      background-color: $black;
+      color: $white;
+      font-size: $font-size;
+      text-align: center;
+      padding-top: 5px;
+    }
   }
 
-  // &--caption{
-      
-  // }
+  &--caption {
+    background-color: $gray-lighter;
+    font-size: $font-double;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+  }
+
+  &--image {
+    img {
+      width: 100%;
+    }
+  } 
 }
- 

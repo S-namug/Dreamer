@@ -1,4 +1,4 @@
-{{ devel_breakpoint() }}
+{# {{ devel_breakpoint() }} #}
 {% set field_type = paragraph.field_type.0.value %}
 
 {% set card_type_class = 'card--content--type--photography' %} 
@@ -25,7 +25,9 @@
     {% else %}   
       <div class="col-sm card--content--photography">
         {{ content.field_image }}
-        {{ content.field_caption }}  
+        <div class="card--content--photography-caption">
+          {{ content.field_caption }}  
+        </div>
       </div>  
     {% endif %}
   </div>
